@@ -1,7 +1,9 @@
 Advanced RAG Q&A System
+
 This repository contains a Retrieval-Augmented Generation (RAG) application built with Streamlit, LangChain, and Hugging Face. The system allows users to upload various document types or provide web links, creates a searchable vector database using FAISS, and answers natural language questions using the Meta-Llama-3-8B-Instruct model.
 
 🚀 Features
+
 Multi-source Input: Supports PDF, DOCX, TXT files, direct text input, and Web URLs.
 
 Vector Search: Utilizes FAISS and sentence-transformers/all-mpnet-base-v2 for high-performance similarity search.
@@ -11,6 +13,7 @@ LLM Integration: Powered by Meta-Llama-3-8B-Instruct via Hugging Face Endpoints.
 User Interface: Clean and interactive UI built with Streamlit.
 
 🛠️ Technical Stack
+
 Frontend: Streamlit
 
 Orchestration: LangChain
@@ -22,6 +25,7 @@ Embeddings: Hugging Face Transformers
 LLM: Meta Llama 3 (8B Instruct)
 
 📋 Prerequisites
+
 Before running the application, ensure you have:
 
 Python 3.8 or higher.
